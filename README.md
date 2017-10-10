@@ -2,13 +2,14 @@
 syntax highlighter for my personal blogs
 
 Generate custom .js and .css files 
+<pre>
 git clone https://github.com/syntaxhighlighter/syntaxhighlighter.git .
 npm install
 gulp setup-project
 gulp build --brushes=css,bash,javascript,java,xml,typescript,sass --theme=default
+</pre>
 
-
-Insert into Blogger Template ie Design just before </head> tag 
+Insert into Blogger Template ie Design just before end of head tag 
 <!-- Begin SyntaxHighlighter-->
     <link href='https://github.com/condorgeek/syntax-highlighter/blob/master/theme.css' rel='stylesheet' type='text/css'/>  
     <script src='https://github.com/condorgeek/syntax-highlighter/blob/master/syntaxhighlighter.js' type='text/javascript'/> 
