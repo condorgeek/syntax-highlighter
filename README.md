@@ -9,7 +9,7 @@ gulp setup-project
 gulp build --brushes=css,bash,javascript,java,xml,typescript,sass --theme=default
 </pre>
 
-Insert into Blogger Template ie Design just before end of <pre> &lt;/head&gt; </pre> tag
+Insert into Blogger Template ie Design just before end of <pre> &lt;/head&gt; </pre> tag, the following lines:
 
 <pre>
 &lt;!-- Begin SyntaxHighlighter--&gt;
